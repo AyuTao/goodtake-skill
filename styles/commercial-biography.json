@@ -1,0 +1,66 @@
+{
+  "id": "commercial-biography",
+  "name": "商业人物志",
+  "tagline": "极简胶片商业志暗房 + 真 Alpha 羽化炭笔人物描画 + 英伟达翠绿/赤红戏剧张力 + 定制好莱坞音效",
+  "bestFor": [
+    "科技与商业人物传记",
+    "重大商业反转事件复盘",
+    "无旁白纯节奏高燃商业短片"
+  ],
+  "savedAt": "2026-11-24",
+  "palette": {
+    "background": "#12100E",
+    "surface": "#1E1A16",
+    "textPrimary": "#F4EBDC",
+    "textMuted": "#B8AA95",
+    "accentPrimary": "#E09F5A",
+    "accentSecondary": "#76B900",
+    "accentAlert": "#D95D4F",
+    "accentInfo": "#8BA9C4",
+    "letterboxPx": 54,
+    "vignetteStrength": 0.58,
+    "anamorphicFlare": false,
+    "dustParticles": true
+  },
+  "typography": {
+    "displayFont": "Noto Serif SC Black, Songti SC, serif",
+    "sansFont": "Noto Sans SC Medium, PingFang SC, sans-serif",
+    "handFont": "LXGW WenKai Medium, Kaiti SC, serif",
+    "monoFont": "JuliaMono Bold, SF Mono, monospace",
+    "maxLayersPerShot": 2,
+    "titleEntrySec": 0.26
+  },
+  "visualMix": {
+    "programmaticAnimationPct": "70%",
+    "editorialPortraitSketches": "2-3 charcoal ink portraits with offscreen radial alpha feathering",
+    "compositionRule": "asymmetric rule-of-thirds (text left / portrait right or vice versa, zero face overlap) + iconic poster ending tribute"
+  },
+  "pacing": {
+    "avgShotSec": "5.5-7.0",
+    "shotsFor3Min": "28-32",
+    "preferredHook": "breaking-metric-shock-then-film-rewind",
+    "transitions": [
+      "flash_cut",
+      "drop_boom",
+      "hard_black",
+      "fade_cut"
+    ]
+  },
+  "audio": {
+    "defaultMode": "user-music-rhythm-first-with-hollywood-sfx",
+    "sfxLayer": "42Hz sub-booms, air risers, 35mm rewind, shutter clicks, whooshes, ECG/chime/stamp/heartbeat, outro shimmer",
+    "truePeakCeilingDb": -3.5
+  },
+  "cover": {
+    "safeCoreBox": {
+      "x": 585,
+      "y": 140,
+      "w": 750,
+      "h": 780
+    },
+    "portraitBackdrop": "subtle upper-center charcoal portrait inside double-line golden frame",
+    "titleLines": "3 stacked lines, 4-5 chars per line",
+    "titleColor": "#F5E7CE",
+    "highlightColor": "#76B900"
+  }
+}

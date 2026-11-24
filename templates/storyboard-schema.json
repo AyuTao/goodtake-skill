@@ -1,0 +1,85 @@
+{
+  "$comment": "GoodTake 标准分镜契约模板（1920x1080, 30fps, 96 BPM）。平均每镜 4.0-5.5s，严禁单镜死顶超过 7.5s。",
+  "totalDurationSec": 240.0,
+  "bpm": 96,
+  "beatSec": 0.625,
+  "fps": 30,
+  "syncCues": {
+    "sequenceHits": [
+      { "label": "item_1", "t": 34.905 },
+      { "label": "item_2", "t": 35.545 }
+    ],
+    "keyMoments": {
+      "stampAlert": 43.30,
+      "zoomOut": 87.50,
+      "crisisBreach": 165.00,
+      "epicBreakthrough": 198.20
+    }
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "act": 1,
+      "start": 0.0,
+      "end": 3.2,
+      "type": "photo",
+      "img": "shot_01_ecu.jpg",
+      "cam": { "s0": 1.04, "s1": 1.15, "x0": 0, "x1": 0, "y0": 12, "y1": -8 },
+      "trans": "fade_in",
+      "sfx": ["sub_swell"],
+      "label": "PROLOGUE · ECU"
+    },
+    {
+      "id": "S02",
+      "act": 1,
+      "start": 3.2,
+      "end": 7.0,
+      "type": "photo_title",
+      "img": "shot_02_monument.jpg",
+      "cam": { "s0": 1.02, "s1": 1.18, "x0": 0, "x1": 0, "y0": 45, "y1": -35 },
+      "trans": "flash_cut",
+      "sfx": ["boom", "flash"],
+      "shake": 1.0,
+      "title": "CORE HOOK",
+      "sub": "一句话震撼钩子副标",
+      "style": "gold_impact"
+    },
+    {
+      "id": "S03",
+      "act": 2,
+      "start": 7.0,
+      "end": 12.5,
+      "type": "math_spotlight",
+      "trans": "hard_black",
+      "sfx": ["shutter", "hit"],
+      "title": "精准数据 / 数学公式特写",
+      "note": "所有数值须为真实计算，关键演化时刻严格绑定 syncCues"
+    },
+    {
+      "id": "S_CLIMAX",
+      "act": 7,
+      "start": 195.0,
+      "end": 198.2,
+      "type": "surge_riser",
+      "img": "shot_chasm_before.png",
+      "cam": { "s0": 1.04, "s1": 1.18, "x0": 0, "x1": 0, "y0": 15, "y1": -20 },
+      "trans": "cut",
+      "sfx": ["riser_epic"]
+    },
+    {
+      "id": "S_BREAKTHROUGH",
+      "act": 7,
+      "start": 198.2,
+      "end": 203.2,
+      "type": "photo_title",
+      "img": "shot_chasm_bridge_after.png",
+      "cam": { "s0": 1.02, "s1": 1.16, "x0": -25, "x1": 25, "y0": 15, "y1": -15 },
+      "trans": "drop_boom",
+      "sfx": ["mega_boom", "flash"],
+      "shake": 1.4,
+      "title": "BREAKTHROUGH",
+      "sub": "同构图跨维破局高潮",
+      "style": "gold_epic"
+    }
+  ]
+}

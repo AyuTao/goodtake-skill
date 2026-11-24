@@ -1,0 +1,60 @@
+{
+  "id": "cinema-gold-imax",
+  "name": "黑曜石熔金 · IMAX 院线科普",
+  "tagline": "极暗聚光灯暗房舞台 + 熔金圣光 + Hans Zimmer 交响张力",
+  "bestFor": [
+    "前沿科技突破",
+    "硬核数学与物理科普",
+    "AI 工具与工作流电影感大片"
+  ],
+  "palette": {
+    "background": "#04060B",
+    "surface": "#0B101C",
+    "textPrimary": "#F5F7FA",
+    "textMuted": "#98A4B8",
+    "accentPrimary": "#F5C469",
+    "accentSecondary": "#38E4AE",
+    "accentAlert": "#FF5C5C",
+    "accentInfo": "#58B8FF",
+    "letterboxPx": 44,
+    "vignetteStrength": 0.68,
+    "anamorphicFlare": true,
+    "dustParticles": true
+  },
+  "typography": {
+    "displayFont": "PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif",
+    "monoFont": "SF Mono, JetBrains Mono, Menlo, monospace",
+    "subtitleSizePx": 42,
+    "subtitleStrokePx": 8,
+    "subtitleBackdrop": "none",
+    "mathLayout": "latex-baseline-offset"
+  },
+  "visualMix": {
+    "programmaticAnimationPct": "60-75%",
+    "realEvidenceAndAppUiPct": "15-25%",
+    "aiCinemaWonderClips": "0-3",
+    "appFrameTreatment": "darkroom-3d-glass-spotlight-magnifier"
+  },
+  "pacing": {
+    "avgShotSec": "4.0-5.5",
+    "maxStaticHoldSec": 7.5,
+    "preferredHook": "tape-rip-contrast-or-scale-drop",
+    "transitions": ["flash_cut", "drop_boom", "hard_black", "fade_cut"]
+  },
+  "audio": {
+    "defaultMode": "code-original-sync",
+    "bpm": 96,
+    "musicalKey": "D minor",
+    "instrumentation": "9-track symphonic orchestra (piano, cello, slow strings, french horns, organ, harp, celesta, pizzicato, timpani) + Hollywood DSP BOOM/Riser/200ms Drop",
+    "voiceSpeed": 1.0,
+    "voiceTone": "温润克制、娓娓道来、有纪录片叙事呼吸感",
+    "musicDuckingFactor": 0.36
+  },
+  "cover": {
+    "safeCoreBox": { "x": 585, "y": 140, "w": 750, "h": 780 },
+    "titleLines": "2-3 lines, 4-7 chars per line",
+    "titleColor": "#F9DF9F",
+    "subtitleColor": "#F5F7FA",
+    "glowColor": "rgba(245, 196, 105, 0.32)"
+  }
+}

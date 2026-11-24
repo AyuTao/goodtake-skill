@@ -1,0 +1,60 @@
+{
+  "id": "warm-editorial-essay",
+  "name": "胶片暖纸 · 深度人文商业志",
+  "tagline": "暗炭胶片暗房 + 暖羊皮纸刊物排版 + 克制室内乐叙事",
+  "bestFor": [
+    "商业案例与行业周期复盘",
+    "历史人物与科学史故事",
+    "独立思考与方法论长视频"
+  ],
+  "palette": {
+    "background": "#12100E",
+    "surface": "#1E1A16",
+    "textPrimary": "#F2E8D5",
+    "textMuted": "#B5A792",
+    "accentPrimary": "#E09F5A",
+    "accentSecondary": "#86B89A",
+    "accentAlert": "#D95D4F",
+    "accentInfo": "#8BA9C4",
+    "letterboxPx": 48,
+    "vignetteStrength": 0.62,
+    "anamorphicFlare": false,
+    "dustParticles": true
+  },
+  "typography": {
+    "displayFont": "Songti SC, Noto Serif CJK SC, PingFang SC, serif",
+    "monoFont": "SF Mono, Menlo, monospace",
+    "subtitleSizePx": 41,
+    "subtitleStrokePx": 7,
+    "subtitleBackdrop": "none",
+    "mathLayout": "latex-baseline-offset"
+  },
+  "visualMix": {
+    "programmaticAnimationPct": "55-70%",
+    "realEvidenceAndAppUiPct": "20-30%",
+    "aiCinemaWonderClips": "0-2",
+    "appFrameTreatment": "editorial-archival-paper-frame"
+  },
+  "pacing": {
+    "avgShotSec": "4.5-6.0",
+    "maxStaticHoldSec": 7.5,
+    "preferredHook": "silence-to-scale-question",
+    "transitions": ["fade_cut", "hard_black", "flash_cut"]
+  },
+  "audio": {
+    "defaultMode": "code-original-sync",
+    "bpm": 84,
+    "musicalKey": "F major / D minor",
+    "instrumentation": "intimate felt piano, warm solo cello, soft string quartet, subtle vinyl/film texture",
+    "voiceSpeed": 1.0,
+    "voiceTone": "从容厚重、有人情味、像深夜对谈纪录片旁白",
+    "musicDuckingFactor": 0.38
+  },
+  "cover": {
+    "safeCoreBox": { "x": 585, "y": 140, "w": 750, "h": 780 },
+    "titleLines": "2-3 lines, 4-7 chars per line",
+    "titleColor": "#F5E7CE",
+    "subtitleColor": "#E09F5A",
+    "glowColor": "rgba(224, 159, 90, 0.25)"
+  }
+}

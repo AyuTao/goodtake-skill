@@ -1,0 +1,60 @@
+{
+  "id": "cyber-blueprint-lab",
+  "name": "深空蓝图 · 极客工程实验室",
+  "tagline": "精密工程暗蓝网格 + 激光青高能动效 + 理性极客美学",
+  "bestFor": [
+    "软件架构与系统原理拆解",
+    "开源项目深度评测",
+    "工程效率与自动化工作流"
+  ],
+  "palette": {
+    "background": "#050A14",
+    "surface": "#0C1628",
+    "textPrimary": "#ECF4FF",
+    "textMuted": "#8CA3C0",
+    "accentPrimary": "#00E5FF",
+    "accentSecondary": "#52FF9A",
+    "accentAlert": "#FF4D6D",
+    "accentInfo": "#FFB347",
+    "letterboxPx": 28,
+    "vignetteStrength": 0.55,
+    "anamorphicFlare": true,
+    "dustParticles": false
+  },
+  "typography": {
+    "displayFont": "PingFang SC, Inter, Noto Sans CJK SC, sans-serif",
+    "monoFont": "JetBrains Mono, SF Mono, Menlo, monospace",
+    "subtitleSizePx": 40,
+    "subtitleStrokePx": 7,
+    "subtitleBackdrop": "none",
+    "mathLayout": "latex-baseline-offset"
+  },
+  "visualMix": {
+    "programmaticAnimationPct": "65-80%",
+    "realEvidenceAndAppUiPct": "20-30%",
+    "aiCinemaWonderClips": "0-2",
+    "appFrameTreatment": "terminal-glass-blueprint-zoom"
+  },
+  "pacing": {
+    "avgShotSec": "3.5-5.0",
+    "maxStaticHoldSec": 6.5,
+    "preferredHook": "cost-time-compression",
+    "transitions": ["hard_black", "flash_cut", "drop_boom"]
+  },
+  "audio": {
+    "defaultMode": "code-original-sync",
+    "bpm": 108,
+    "musicalKey": "C minor",
+    "instrumentation": "precision arpeggiated piano, pizzicato pulse, sub bass, glass celesta, tight cinematic percussive hits",
+    "voiceSpeed": 1.0,
+    "voiceTone": "清晰利落、逻辑紧凑、带轻微极客松弛感",
+    "musicDuckingFactor": 0.34
+  },
+  "cover": {
+    "safeCoreBox": { "x": 585, "y": 140, "w": 750, "h": 780 },
+    "titleLines": "2-3 lines, 4-7 chars per line",
+    "titleColor": "#FFFFFF",
+    "subtitleColor": "#00E5FF",
+    "glowColor": "rgba(0, 229, 255, 0.28)"
+  }
+}
